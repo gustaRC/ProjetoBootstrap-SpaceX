@@ -1,0 +1,59 @@
+// IMPORT VARIABLES
+// COLORS
+@import "./variables/colors.scss";
+
+// UNIVERSAL CUSTOMS
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+.navBar-custom {
+  background-color: #0000005e !important;
+  padding: 22px 55px;
+}
+
+.text-link {
+  font-weight: 700;
+  color: #fff;
+  font-size: 12px;
+
+  &:hover {
+    color: #e2e2e2;
+  }
+}
+
+.defaultConteiner1 {
+  background-image: url("../../public/images/home/01.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh
+}
+
+.defaultConteiner2 {
+  background-image: url("../../public/images/home/01.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh
+}
+
+.cont-text {
+  color: #fff;
+  margin-left: 30vh;
+}
+
+.footerRow {
+  width: 500px;
+}
+
+
+// IMPORT PAGES
+// HOME
+@import "./pages/home.scss";
+// FALCON9
+@import "./pages/falcon9.scss";
+// HUMAN SPACE FLIGHT
+@import "./pages/humanSpace.scss";
+
+
