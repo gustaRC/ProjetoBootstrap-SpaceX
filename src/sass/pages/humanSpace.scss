@@ -1,0 +1,13 @@
+.customConteiner1 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/home/01.jpg);
+}
+
+.cont-text1 {
+  margin-top: 15%;
+}
+
+.arrow {
+  width: 8%;
+  margin-top: 40px;
+}

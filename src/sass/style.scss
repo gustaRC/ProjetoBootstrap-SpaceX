@@ -6,12 +6,12 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 .navBar-custom {
   background-color: #0000005e !important;
-  padding: 22px 55px;
+  padding: 22px 15%;
 }
 
 .text-link {
@@ -24,29 +24,52 @@
   }
 }
 
-.defaultConteiner1 {
-  background-image: url("../../public/images/home/01.jpg");
+.defaultConteiner01 {
   background-size: cover;
   background-position: center;
-  height: 100vh
+  height: 100vh;
 }
 
-.defaultConteiner2 {
-  background-image: url("../../public/images/home/01.jpg");
+.defaultConteiner02 {
   background-size: cover;
   background-position: center;
   height: 80vh
 }
 
-.cont-text {
-  color: #fff;
-  margin-left: 30vh;
+.btnCustomLink {
+  border: 2px solid white;
+  padding: 15px 35px;
+  margin-top: 3.5%;
 }
 
+footer {
+  padding: 3.3%;
+}
 .footerRow {
   width: 500px;
-}
 
+  .otherTextsFooter {
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+  
+    &:hover {
+      color: #bbbbbb;
+    }
+  }
+  
+  .textOneBit-footer {
+    @extend .otherTextsFooter;
+    color: $copyright;
+    margin: 0;
+  
+    &:hover {
+      color: $copyright;
+    }
+  }
+}
 
 // IMPORT PAGES
 // HOME

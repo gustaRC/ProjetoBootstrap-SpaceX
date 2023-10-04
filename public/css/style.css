@@ -6,7 +6,7 @@
 
 .navBar-custom {
   background-color: rgba(0, 0, 0, 0.368627451) !important;
-  padding: 22px 55px;
+  padding: 22px 15%;
 }
 
 .text-link {
@@ -18,27 +18,60 @@
   color: #e2e2e2;
 }
 
-.defaultConteiner1 {
-  background-image: url("../../public/images/home/01.jpg");
+.defaultConteiner01, .customConteiner1 {
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.defaultConteiner2 {
-  background-image: url("../../public/images/home/01.jpg");
+.defaultConteiner02 {
   background-size: cover;
   background-position: center;
   height: 80vh;
 }
 
-.cont-text {
-  color: #fff;
-  margin-left: 30vh;
+.btnCustomLink {
+  border: 2px solid white;
+  padding: 15px 35px;
+  margin-top: 3.5%;
+}
+
+footer {
+  padding: 3.3%;
 }
 
 .footerRow {
   width: 500px;
+}
+.footerRow .otherTextsFooter, .footerRow .textOneBit-footer {
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+.footerRow .otherTextsFooter:hover, .footerRow .textOneBit-footer:hover {
+  color: #bbbbbb;
+}
+.footerRow .textOneBit-footer {
+  color: #555252;
+  margin: 0;
+}
+.footerRow .textOneBit-footer:hover {
+  color: #555252;
+}
+
+.customConteiner1 {
+  background-image: url(../../../public/images/home/01.jpg);
+}
+
+.cont-text1 {
+  margin-top: 15%;
+}
+
+.arrow {
+  width: 8%;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
