@@ -1,13 +1,67 @@
 .customConteiner1 {
   @extend .defaultConteiner01;
+  padding: 0;
   background-image: url(../../../public/images/home/01.jpg);
 }
 
-.cont-text1 {
+.customConteiner2 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/home/03.jpg);
+}
+
+.customConteiner3 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/home/02.gif);
+}
+
+.customConteiner4 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/home/04.jpg);
+}
+
+
+.marginTop-text {
   margin-top: 15%;
+}
+
+.paddingTop-text {
+  padding-top: 12%;
+}
+
+.paddingTop-custom-text {
+  padding-top: 18%;
 }
 
 .arrow {
   width: 8%;
   margin-top: 40px;
 }
+
+@media (max-width: 770px) {
+  .arrow {
+    width: 20%;
+  }
+
+  .paddingTop-custom-text {
+    padding-top: 26%;
+  }
+};
+
+@media (max-width: 370px) {
+  .marginTop-text {
+    margin-top: 40%;
+  }
+
+  .paddingTop-text {
+    padding-top: 30%;
+  }
+
+  .paddingTop-custom-text {
+    padding-top: 50%;
+  }
+
+  .ImgWidthNav {
+    width: 180px;;
+  }
+
+};

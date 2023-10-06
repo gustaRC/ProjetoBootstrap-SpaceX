@@ -9,20 +9,16 @@
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
   <!-- CSS++ -->
   <link rel="stylesheet" href="./css/style.css">
-  <!-- LIB ANIMATION -->
+  <!-- LIB ANIMATION CSS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-  <script defer>
-    AOS.init();
-  </script>
   <!-- FAVICON -->
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
   <header class="container-fluid customConteiner1">
-    <nav class="navbar navbar-expand-md bg-body-tertiary navBar-custom navbar-dark">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-body-tertiary navBar-custom navbar-dark py-4">
+      <div class="container">
         <a class="navbar-brand" href="./index.html">
-          <img src="./images/logo-obc-2021-darkbg.png" alt="Logo" width="245" class="d-inline-block align-text-top me-4">
+          <img src="./images/logo-obc-2021-darkbg.png" alt="Logo" class="d-inline-block align-text-top me-4 ImgWidthNav">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,23 +36,52 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="topic text-white cont-text1">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
+      <div class="topic text-white marginTop-text">
         <h5>LANÇAMENTO A CAMINHO</h5>
         <h1>MISSÃO EQUIPE-3</h1>
         <a href="">
-          <button type="button" class="btn btn-outline-light btnCustomLink">SAIBA MAIS
+          <button type="button" class="btn btn-outline-light btnCustomLink" data-aos="fade-up" data-aos-duration="2500">SAIBA MAIS
           </button>
         </a>
       </div>
-      <div class=" container-fluid d-flex justify-content-center">
+      <div class="d-flex justify-content-center">
         <img src="./images/home/arrowDown.gif" alt="" class="arrow">
       </div>
     </div>
   </header>
 
-<div class="conteiner-fluid"></div>
+  <div class="conteiner-fluid customConteiner2 paddingTop-text">
+    <div class="container text-white" data-aos="fade-right" data-aos-duration="1500">
+      <h5>MISSÃO CONCLUÍDA</h5>
+      <h1>MISSÃO EQUIPE-2 <br>RETORNOU PARA A TERRA</h1>
+      <a href="">
+        <button type="button" class="btn btn-outline-light btnCustomLink" data-aos="fade-right" data-aos-duration="2000">SAIBA MAIS
+        </button>
+      </a>
+    </div>
+  </div>
 
+  <div class="conteiner-fluid customConteiner3 paddingTop-custom-text">
+    <div class="container text-white" data-aos="fade-down" data-aos-duration="1500">
+      <h5>MISSÃO CONCLUÍDA</h5>
+      <h1>DRAGON RETORNOU PARA <br>A TERRA</h1>
+      <a href="">
+        <button type="button" class="btn btn-outline-light btnCustomLink">SAIBA MAIS
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <div class="conteiner-fluid customConteiner4 paddingTop-text">
+    <div class="container text-white" data-aos="fade-down-right" data-aos-duration="1500">
+      <h1>STARSHIP POUSA ASTRONAUTAS <br>DA NASA NA LUA</h1>
+      <a href="">
+        <button type="button" class="btn btn-outline-light btnCustomLink">SAIBA MAIS
+        </button>
+      </a>
+    </div>
+  </div>
 
   <footer class="container-fluid d-flex justify-content-center align-items-center bg-black">
     <div class="footerRow d-flex justify-content-center align-items-center">
@@ -66,5 +91,12 @@
       <a href="" class="otherTextsFooter ms-4">Twitter</a>
     </div>
   </footer>
+
+  <!-- LIB ANIMATION -->
+  <!-- LINK LIB: https://michalsnik.github.io/aos/?_gl=1*1cmlri*_ga*MTc5NjQyODMwNy4xNjc1ODYwOTYx*_ga_37GXT4VGQK*MTY5NjUwNjA5Mi4zMTEuMS4xNjk2NTExMDk0LjAuMC4w -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

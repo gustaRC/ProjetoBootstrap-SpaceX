@@ -1,0 +1,115 @@
+.customConteiner11 {
+  @extend .defaultConteiner01;
+  padding: 0;
+  background-image: url(../../../public/images/falcon9/01.jpg);
+}
+
+.customConteiner12 {
+  background-color: black;
+  color: white;
+  padding: 6% 0px;
+}
+
+.customConteiner13 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/02.jpg);
+}
+
+.customConteinerCarrossel {
+  @extend .defaultConteiner01;
+}
+
+.customConteinerCarrosel1 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/03.jpg);
+}
+
+.customConteinerCarrosel2 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/04.jpg);
+}
+
+.customConteinerCarrosel3 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/05.jpg);
+}
+
+.customConteinerCarrosel4 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/06.jpg);
+}
+
+.customConteinerCarrosel5 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/07.jpg);
+}
+
+.customConteinerCarrosel6 {
+  @extend .defaultConteiner01;
+  background-image: url(../../../public/images/falcon9/08.jpg);
+}
+
+.customConteinerCarrosel7 {
+  @extend .defaultConteiner02;
+  background-color: black;
+}
+
+.titleText {
+  font-size: 9vh;
+  font-family: Rubik, sans-serif;
+  font-weight: 600;
+}
+
+.marginTop-center {
+  margin-top: 23%;
+}
+
+.txt1-conteinerCustom {
+  // font-size: 85px;
+  font-size: 9vh;
+}
+
+.widthParagraph {
+  width: 45%;
+}
+
+.txt-paragraph-display {
+  // font-size: 22px;
+  font-size: 2.3vh;
+  line-height: 50px;
+  @extend .widthParagraph;
+}
+
+.tableCustom{
+  width: 40%;
+  height: auto;
+  background: transparent !important;
+}
+
+.lineTable {
+  border-bottom: 1px solid white;
+  font-size: 16px;
+
+  td {
+    padding: 8px 8px;
+  }
+}
+
+.linkCustom {
+  color: $table_color;
+  text-decoration: none;
+
+  &:hover {
+    filter: brightness(1.3);
+  };
+}
+
+@media (max-width: 768px) {
+  .txt-paragraph-display {
+    width: 85%;
+  }
+  .tableCustom {
+    width: 70%;
+    margin-left: 10%;
+  }
+}
