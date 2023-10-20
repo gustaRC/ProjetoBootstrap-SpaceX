@@ -2,77 +2,8 @@
 // COLORS
 @import "./variables/colors.scss";
 
-// UNIVERSAL CUSTOMS
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.navBar-custom {
-  background-color: #0000002c !important;
-}
-
-.ImgWidthNav {
-  width: 245px;
-}
-
-.text-link {
-  font-weight: 700;
-  color: #fff;
-  font-size: 12px;
-
-  &:hover {
-    color: #e2e2e2;
-  }
-}
-
-.defaultConteiner01 {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.defaultConteiner02 {
-  background-size: cover;
-  background-position: center;
-  height: 80vh
-}
-
-.btnCustomLink {
-  border: 2px solid white;
-  padding: 15px 35px;
-  margin-top: 3.5%;
-}
-
-footer {
-  padding: 3.3%;
-}
-.footerRow {
-  width: 500px;
-
-  .otherTextsFooter {
-    padding: 0;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 12px;
-  
-    &:hover {
-      color: #bbbbbb;
-    }
-  }
-  
-  .textOneBit-footer {
-    @extend .otherTextsFooter;
-    color: $copyright;
-    margin: 0;
-  
-    &:hover {
-      color: $copyright;
-    }
-  }
-}
+// IMPORT COMMUN ELEMENTS
+@import "./variables/communElements.scss";
 
 // IMPORT PAGES
 // HOME

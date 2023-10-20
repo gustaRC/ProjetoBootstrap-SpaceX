@@ -113,3 +113,23 @@
     margin-left: 10%;
   }
 }
+
+@media (max-width: 350px) {
+  .titleText {
+    font-size: 6vh;
+  }
+  .widthParagraph {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.226);
+  }
+  .tableCustom {
+    background-color: rgba(0, 0, 0, 0.226) !important;
+  }
+  .txt1-conteinerCustom {
+    font-size: 5vh;
+  }
+  .txt2-conteinerCustom {
+    font-size: 2vh;
+  }
+}
